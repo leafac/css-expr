@@ -1,0 +1,55 @@
+CSS-expressions
+---------------
+
+S-expression-based CSS.
+
+
+VERSION
+
+0.0.1
+
+
+DOCUMENTATION
+
+https://docs.racket-lang.org/css-expr
+
+
+LICENSE
+
+GNU General Public License Version 3
+https://gnu.org/licenses/gpl-3.0.txt
+
+
+CODE OF CONDUCT
+
+Contributor Covenant v1.4.0
+http://contributor-covenant.org/version/1/4/
+
+
+DISTRIBUTION
+
+Racket package
+https://pkgd.racket-lang.org/pkgn/package/css-expr
+
+
+SOURCE
+
+https://git.leafac.com/css-expr
+
+
+BUG REPORTS
+
+Write emails to <css-expr@leafac.com>.
+
+
+CONTRIBUTIONS
+
+Send patches (https://git-scm.com/docs/git-format-patch) and pull requests
+(https://git-scm.com/docs/git-request-pull) via email to <css-expr@leafac.com>
+
+
+AUTHOR
+
+Leandro Facchinetti <me@leafac.com>
+https://www.leafac.com
+GPG: 0x5925D0683DF3D583
