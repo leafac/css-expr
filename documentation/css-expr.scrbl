@@ -666,7 +666,7 @@ Valid operands for attributes are: @racket[=], @racket[~=], @racket[^=], @racket
 
 @section[#:tag "acknowledgments"]{Acknowledgments}
 
-Thank you @hyperlink["http://typographyforlawyers.com/about.html"]{Matthew But­t­er­ick} for Pollen—which motivated the creation of CSS-expressions—and for the feedback given in private email conversations. Thank you all Racket developers. Thank you all users of this library.
+Thank you @hyperlink["http://typographyforlawyers.com/about.html"]{Matthew Butterick} for Pollen—which motivated the creation of CSS-expressions—and for the feedback given in private email conversations. Thank you Greg Trzeciak for the @hyperlink["https://groups.google.com/forum/#!topic/racket-users/uZs169VKXBE"]{early feedback}. Thank you all Racket developers. Thank you all users of this library.
 
 @section[#:tag "changelog"]{Changelog}
 
