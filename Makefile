@@ -1,14 +1,11 @@
-.PHONY: documentation documentation/deploy documentation/clean clean
+.PHONY: deploy
 
-documentation: compiled-documentation/index.html
+project = css-expr
 
-compiled-documentation/index.html: documentation/css-expr.scrbl
-	cd documentation && raco scribble --dest ../compiled-documentation/ --dest-name index -- css-expr.scrbl
-
-documentation/deploy: documentation
-	rsync -av --delete compiled-documentation/ leafac.com:leafac.com/websites/software/css-expr/
-
-documentation/clean:
-	rm -rf compiled-documentation
-
-clean: documentation/clean
+deploy:
+	cd $$(mktemp -d) && \
+	git clone $(CURDIR) && \
+	raco pkg create $(project) && \
+	mv $(project).zip $(project)$(version).zip && \
+	mv $(project).zip.CHECKSUM $(project)$(version).zip.CHECKSUM && \
+	rsync -av $(project)$(version).zip{,.CHECKSUM} leafac.com:leafac.com/websites/software/$(project)/
