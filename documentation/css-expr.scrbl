@@ -12,7 +12,7 @@
 @tabular[#:style 'boxed
          #:sep @hspace[1]
          #:row-properties '(bottom-border)
-         `((, @bold{Version} , @seclink["changelog/0.0.1"]{0.0.1})
+         `((, @bold{Version} , @seclink["changelog/0.0.2"]{0.0.2})
            (, @bold{Documentation} , @hyperlink["https://docs.racket-lang.org/css-expr"]{https://docs.racket-lang.org/css-expr})
            (, @bold{License} , @hyperlink["https://gnu.org/licenses/gpl-3.0.txt"]{GNU General Public License Version 3})
            (, @bold{Code of Conduct} , @hyperlink["http://contributor-covenant.org/version/1/4/"]{Contributor Covenant v1.4.0})
@@ -179,7 +179,9 @@ When nesting qualified rules, the default combinator for @seclink["language/sele
 
 In the example above, the declaration @racket[#:text-decoration none] is only effective on @racket[.item]s that are immediate children of @racket[.menu]s.
 
-Under special conditions—for example, when the parent selector is a class name or an id—one can declare nested rules that add a suffix to the parent selector. Accomplish that using @racket[&-].
+@margin-note{The following kinds of parent selectors allow for an added suffix with @racket[&-]: identifiers, namespaced selectors, prefixed selectors or combinations in which the last selector is one of the previous kinds.}
+
+Under special conditions one can declare nested rules that add a suffix to the parent selector. Accomplish that using @racket[&-].
 
 @examples[
  (require css-expr)
@@ -528,6 +530,8 @@ The arguments to those pseudo-classes that look like function applications can b
 
 In the first example above, @racket[(apply not .classy)] is a pseudo-class that looks like function application whose argument another selector (@racket[.classy]). The rest of the examples illustrate the @racket[An+B] form.
 
+@margin-note{See @secref["language/nesting"] for the specific cases in which it is valid to add a suffix to the parent selector with @racket[&-].}
+
 In @seclink["language/nesting"]{nested qualified rules}, the selector @racket[&] stands for the parent selector. The selector @racket[&-] is a reference to the parent selector that allows for suffixes in limited cases.
 
 @examples[
@@ -687,6 +691,13 @@ This section documents all notable changes to CSS-expressions. It follows recomm
 
  @subsubsection[#:tag "changelog/unreleased/security"]{Security}
 }
+
+@subsection[#:tag "changelog/0.0.2"]{0.0.2 · 2017-03-08}
+
+@subsubsection[#:tag "changelog/0.0.2/changed"]{Changed}
+
+@itemlist[
+ @item{Re-implemed CSS-expression from scratch using @hyperlink["https://docs.racket-lang.org/nanopass/index.html"]{Nanopass}. The user interface is the same.}]
 
 @subsection[#:tag "changelog/0.0.1"]{0.0.1 · 2017-02-01}
 

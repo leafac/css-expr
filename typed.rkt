@@ -1,12 +1,6 @@
 #lang typed/racket/base
-(require "private/css-expr/typed.rkt"
-         "private/css-expr/lexer.rkt"
-         "private/css-expr/parser.rkt"
-         "private/extended/extended-to-core.rkt"
-         "private/core/core-to-css.rkt")
+(require syntax/parse/define)
 
-(provide css-expr css-expr->css)
+(require/typed/provide "main.rkt" [css-expr->css (-> Sexp String)])
 
-(: css-expr->css (-> Sexp String))
-(define (css-expr->css css-expr)
-  (Core->CSS (Extended->Core (parse (tokenize css-expr)))))
+(define-simple-macro (css-expr any ...) `(any ...))
