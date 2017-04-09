@@ -16,7 +16,7 @@
            (, @bold{Documentation} , @hyperlink["https://docs.racket-lang.org/css-expr"]{https://docs.racket-lang.org/css-expr})
            (, @bold{License} , @hyperlink["https://gnu.org/licenses/gpl-3.0.txt"]{GNU General Public License Version 3})
            (, @bold{Code of Conduct} , @hyperlink["http://contributor-covenant.org/version/1/4/"]{Contributor Covenant v1.4.0})
-           (, @bold{Distribution} , @hyperlink["https://pkgd.racket-lang.org/pkgn/package/css-expr"]{Racket package})
+           (, @bold{Distribution} , @hyperlink["https://pkgs.racket-lang.org/package/css-expr"]{Racket package})
            (, @bold{Source} , @hyperlink["https://git.leafac.com/css-expr"]{https://git.leafac.com/css-expr})
            (, @bold{Bug Reports} , @para{Write emails to @hyperlink["mailto:css-expr@leafac.com"]|{css-expr@leafac.com}|.})
            (, @bold{Contributions} , @para{Send @hyperlink["https://git-scm.com/docs/git-format-patch"]{patches} and @hyperlink["https://git-scm.com/docs/git-request-pull"]{pull requests} via email to @hyperlink["mailto:css-expr@leafac.com"]|{css-expr@leafac.com}|.}))]
@@ -50,7 +50,7 @@ CSS is a domain-specific language for styling documents. Documents can be genera
 
 @section[#:tag "installation"]{Installation}
 
-CSS-expressions are a @hyperlink["https://pkgd.racket-lang.org/pkgn/package/css-expr"]{Racket package}. Install it in DrRacket or with the following command line:
+CSS-expressions are a @hyperlink["https://pkgs.racket-lang.org/package/css-expr"]{Racket package}. Install it in DrRacket or with the following command line:
 
 @nested[#:style 'code-inset
         @verbatim|{
