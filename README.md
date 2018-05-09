@@ -4,7 +4,7 @@ CSS-expressions
 S-expression-based CSS.
 
 |||
-|-
+|-|-|
 | Version | 0.0.2 |
 | Documentation | https://docs.racket-lang.org/css-expr/ |
 | License | [GNU General Public License Version 3](https://gnu.org/licenses/gpl-3.0.txt) |
