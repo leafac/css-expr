@@ -4,6 +4,6 @@
 .DS_Store
 compiled/
 /doc/
-/documentation/*.html
-/documentation/*.css
-/documentation/*.js
+/*.html
+/*.css
+/*.js
