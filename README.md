@@ -3,7 +3,7 @@ CSS-expressions
 
 S-expression-based CSS.
 
-||
+|||
 |-
 | Version | 0.0.2 |
 | Documentation | https://docs.racket-lang.org/css-expr/ |
