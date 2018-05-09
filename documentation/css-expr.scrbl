@@ -13,13 +13,13 @@
          #:sep @hspace[1]
          #:row-properties '(bottom-border)
          `((, @bold{Version} , @seclink["changelog/0.0.2"]{0.0.2})
-           (, @bold{Documentation} , @hyperlink["https://docs.racket-lang.org/css-expr"]{https://docs.racket-lang.org/css-expr})
+           (, @bold{Documentation} , @hyperlink["https://docs.racket-lang.org/css-expr/"]{Racket Documentation})
            (, @bold{License} , @hyperlink["https://gnu.org/licenses/gpl-3.0.txt"]{GNU General Public License Version 3})
            (, @bold{Code of Conduct} , @hyperlink["http://contributor-covenant.org/version/1/4/"]{Contributor Covenant v1.4.0})
-           (, @bold{Distribution} , @hyperlink["https://pkgs.racket-lang.org/package/css-expr"]{Racket package})
-           (, @bold{Source} , @hyperlink["https://git.leafac.com/css-expr"]{https://git.leafac.com/css-expr})
-           (, @bold{Bug Reports} , @para{Write emails to @hyperlink["mailto:css-expr@leafac.com"]|{css-expr@leafac.com}|.})
-           (, @bold{Contributions} , @para{Send @hyperlink["https://git-scm.com/docs/git-format-patch"]{patches} and @hyperlink["https://git-scm.com/docs/git-request-pull"]{pull requests} via email to @hyperlink["mailto:css-expr@leafac.com"]|{css-expr@leafac.com}|.}))]
+           (, @bold{Distribution} , @hyperlink["https://pkgs.racket-lang.org/package/css-expr"]{Racket Package})
+           (, @bold{Source} , @hyperlink["https://github.com/leafac/css-expr"]{GitHub})
+           (, @bold{Bug Reports} , @hyperlink["https://github.com/leafac/css-expr/issues"]{GitHub Issues})
+           (, @bold{Contributions} , @hyperlink["https://github.com/leafac/css-expr/pulls"]{GitHub Pull Requests}))]
 
 @section[#:tag "overview"]{Overview}
 
