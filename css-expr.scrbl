@@ -59,7 +59,7 @@ $ raco pkg install css-expr
 
 @section[#:tag "usage"]{Usage}
 
-@margin-note{See CSS-expressions in action on my @hyperlink["https://www.leafac.com"]{personal website} (@hyperlink["https://github.com/leafac/pollen-www.leafac.com/tree/f063597fefe0ad8d846b5d101749cb0627eec218"]{source}). It also uses @hyperlink["https://docs.racket-lang.org/pollen-component"]{Pollen Component}.}
+@margin-note{See CSS-expressions in action on my @hyperlink["https://www.leafac.com"]{personal website} (@hyperlink["https://github.com/leafac/www.leafac.com/tree/pollen-component"]{source}). It also uses @hyperlink["https://docs.racket-lang.org/pollen-component"]{Pollen Component}.}
 
 First, require the library. In Racket, add the following line:
 
